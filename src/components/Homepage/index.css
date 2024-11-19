@@ -1,0 +1,21 @@
+.home-div{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.left-div{
+    width: 15%; 
+}
+.right-div{
+    width: 85%;
+    background: rgb(235, 234, 234);
+    height: 100vh;
+    position: fixed;
+    right: 0;
+    overflow-y: auto;   /* Enable vertical scrolling */
+  overflow-x: hidden;
+}
+.jbgvgfc{
+    color: "blue";
+}
+

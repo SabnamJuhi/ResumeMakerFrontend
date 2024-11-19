@@ -1,0 +1,30 @@
+.menu-div{
+    display: flex;
+    flex-direction: row;
+    padding: 0px 2rem;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    background: rgb(53, 53, 221);
+    transition: background-color 0.3s ease;
+    position: fixed;
+    width: 81%;
+    z-index: 1;
+}
+.menu-div-left{
+    font-size: larger;
+    color: white;
+}
+.menu-div-right{
+    font-size: xx-large;
+    color: white;
+    background: rgb(199, 198, 198);
+    padding: 5px;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    
+}

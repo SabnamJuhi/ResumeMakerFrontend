@@ -1,0 +1,35 @@
+.signup-main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    gap: 1rem;
+    padding: 2rem;
+    align-items: center;
+    /* margin-right: 13rem; */
+    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+}
+
+
+/* Make labels bold and slightly larger */
+.ant-form-item-label > label {
+    font-weight: bold;
+    margin-right: 6rem;
+    font-size: 20px;  
+    left: 0;
+  }
+
+  /* Set margin between form items */
+  .signup-main .ant-form-item {
+    margin-bottom: 20px;  /* Ensure consistent spacing between form items */
+    
+  }
+  .ant-input::placeholder,
+.ant-input-password::placeholder {
+    color: rgb(114, 114, 114);
+}
+/* Apply green color to error messages */
+.ant-form-item-explain-error {
+    color: #52b775 !important;  /* Customize the error message color */
+  }
+
+  
